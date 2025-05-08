@@ -58,4 +58,40 @@ To set up the project, install the required dependencies and download the Tennis
      pip install protobuf==3.20.3
 
 ## How to run the code
+
+Follow these steps to train the agents in the Tennis environment:
+
+- **Set Up the Environment**
+  - Ensure the Tennis environment file is in the project directory and the path in the code is correctly specified.
+- **Run the Training**:
+  - If using a Python script (e.g., train.py), execute:
+    ```bash
+    python train.py
+
+  - Alternatively, if using a Jupyter notebook, open it and run all cells:
+    ```bash
+    jupyter notebook Tennis_Collaboration_Competition.ipynb
+
+- **Training Process**:
+  - The script/notebook initializes the MADDPG agents and begins training.
+  - It tracks episode scores and computes the average score over a 100-episode window.
+  - Training stops when the average score reaches ≥ +0.5 over 100 episodes or a maximum episode limit is hit.
+  - Model checkpoints (e.g., `checkpoint_agent0_actor.pth`, `checkpoint_agent0_critic.pth`) are saved upon solving the environment.
+
+- **View Results**:
+  - Console output shows episode scores, average scores, and elapsed time, e.g.:
+  ```
+  Episode 100	Avg Score: 0.0123	Max Score: 0.1000	Time: 1.23
+  Episode 2050	Avg Score: 0.5012	Max Score: 0.7000	Time: 1.45
+  Environment solved in 2050 episodes with average score 0.5012
+
+  - A plot of scores is saved as scores_plot.png.
+
+## Additional Notes
+- Ensure your system has sufficient memory and computational resources, as training may take several hours depending on hardware.
+- Modify hyperparameters in the code (e.g., learning rate, buffer size) to experiment with performance.
+
+For further details, see the project report (if available) or the code comments.
+
+
    
