@@ -35,3 +35,14 @@ To set up the project, install the required dependencies and download the Tennis
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
+   
+2. **Install Python Packages**:
+   - Use pip to install the necessary libraries
+    ```bash
+     pip install torch numpy matplotlib unityagents
+    
+3. **Download The Tennis Environment**:
+
+  
+4. **Optional: Protocol Buffers**:
+   
