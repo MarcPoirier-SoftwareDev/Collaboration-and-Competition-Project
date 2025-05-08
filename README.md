@@ -37,7 +37,7 @@ To set up the project, install the required dependencies and download the Tennis
    cd your-repo-name
    
 2. **Install Python Packages**:
-  Use pip to install the necessary libraries
+    Use pip to install the necessary libraries
     ```bash
      pip install torch numpy matplotlib unityagents
     
