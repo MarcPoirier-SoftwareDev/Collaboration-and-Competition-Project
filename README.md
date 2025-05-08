@@ -84,7 +84,7 @@ Follow these steps to train the agents in the Tennis environment:
   Episode 100	Avg Score: 0.0123	Max Score: 0.1000	Time: 1.23
   Episode 2050	Avg Score: 0.5012	Max Score: 0.7000	Time: 1.45
   Environment solved in 2050 episodes with average score 0.5012
-
+  ```
 
   - A plot of scores is saved as scores_plot.png.
 
