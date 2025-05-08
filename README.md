@@ -37,12 +37,25 @@ To set up the project, install the required dependencies and download the Tennis
    cd your-repo-name
    
 2. **Install Python Packages**:
-    Use pip to install the necessary libraries
+  - Use pip to install the necessary libraries
     ```bash
      pip install torch numpy matplotlib unityagents
     
 3. **Download The Tennis Environment**:
-
+  - Obtain the Tennis environment for your operating system from the [Unity ML-Agents GitHub releases](https://github.com/Unity-Technologies/ml-agents/releases).
+  - Supported platforms:
+    - Linux: `Tennis_Linux.zip`
+    - macOS: `Tennis.app.zip`
+    - Windows: `Tennis_Windows_x86_64.zip`
+  - Extract the downloaded file and place it in the project directory.
+  - Update the environment path in your code, e.g.:
+    ```python
+    env = UnityEnvironment(file_name="path/to/Tennis")
   
 4. **Optional: Protocol Buffers**:
+   - If compatibility issues arise, install a specific version of Protocol Buffers:
+     ```bash
+     pip install protobuf==3.20.3
+
+## How to run the code
    
