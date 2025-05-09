@@ -70,12 +70,12 @@ Follow these steps to train the agents in the Tennis environment:
 
   - Alternatively, if using a Jupyter notebook, open it and run all cells:
     ```bash
-    jupyter notebook Tennis_Collaboration_Competition.ipynb
+    jupyter notebook Tennis.ipynb
 
 - **Training Process**:
   - The script/notebook initializes the MADDPG agents and begins training.
   - It tracks episode scores and computes the average score over a 100-episode window.
-  - Training stops when the average score reaches ≥ +0.5 over 100 episodes or a maximum episode limit is hit.
+  - Training stops when a maximum episode limit is hit.
   - Model checkpoints (e.g., `checkpoint_agent0_actor.pth`, `checkpoint_agent0_critic.pth`) are saved upon solving the environment.
 
 - **View Results**:
